@@ -160,11 +160,12 @@ h1 {
     margin-top: 5px;
   }
   nav ul {
-    gap: 5px;
+    gap: 10px;
   }
   .signup-btn {
     padding: 5px 5px;
-    border-radius: 3px;
+    margin-bottom: 10px;
+
   }
   
   .logo {
