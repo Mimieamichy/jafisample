@@ -5,10 +5,12 @@ body {
   background: #f8f9fc;
   text-align: center;
 }
+
 .logo {
   width: 150px;
   height: 100px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -23,14 +25,17 @@ nav ul {
   display: flex;
   gap: 20px;
 }
+
 nav ul li {
   display: inline;
 }
+
 nav ul li a {
   text-decoration: none;
   color: black;
   font-weight: 400;
 }
+
 .signup-btn {
   background: #0099ff;
   color: white;
@@ -39,26 +44,31 @@ nav ul li a {
   border-radius: 5px;
   cursor: pointer;
 }
+
 .hero {
   padding: 50px;
   background: white;
 }
+
 h1 {
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 10px;
 }
+
 .search-bar {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 20px;
 }
+
 .search-bar input, .search-bar select {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
 .search-btn {
   background: #0099ff;
   color: white;
@@ -67,19 +77,23 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
+
 .partners img {
   margin: 20px;
   height: 30px;
 }
+
 .review-section {
   padding: 50px;
 }
+
 .review-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .review-form {
   background: white;
   padding: 20px;
@@ -88,6 +102,7 @@ h1 {
   text-align: left;
   width: 23%;
 }
+
 .review-form textarea {
   width: 100%;
   padding: 10px;
@@ -95,21 +110,26 @@ h1 {
   border-radius: 5px;
   margin-top: 10px;
 }
+
 .rating-stars {
   margin-top: 10px;
 }
+
 .rating-stars span {
   font-size: 24px;
   cursor: pointer;
 }
+
 .emoji-reactions {
   margin-top: 10px;
 }
+
 .emoji-reactions span {
   font-size: 24px;
   cursor: pointer;
   margin: 5px;
 }
+
 .submit-btn {
   background: #0099ff;
   color: white;
@@ -119,58 +139,43 @@ h1 {
   cursor: pointer;
   margin-top: 10px;
 }
-@media (min-width: 360px) {
+
+@media (min-width:360px) {
   .review-form {
-      width: 45%;
+    width: 100%;
+    padding-right: 30px;
+    
+   
   }
-}
-@media (min-width: 360px) {
   .review-container {
-      flex-direction: column;
-      align-items: center;
-  }
-  .review-form {
-      width: 80%;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
   }
   .hero {
     padding: 5px;
-    
   }
   .search-bar {
-   
     gap: 2px;
     margin-top: 5px;
   }
   nav ul {
-   
     gap: 5px;
   }
-  nav ul li a {
-    
-    font-weight: 100;
-  }
   .signup-btn {
-   
-    padding: 5px 8px;
+    padding: 5px 5px;
     border-radius: 3px;
-    
   }
-}
-@media (min-width: 360px) {
-  .review-form {
-      width: 95%;
-  }
+  
   .logo {
-      width: 50px;
-      height: 50px;
+    width: 50px;
+    height: 50px;
   }
-  nav{
+  nav {
     padding: 5px 10px;
     font-size: 10px;
-
   }
   .search-btn {
-    
     padding: 5px 7px;
     border-radius: 2px;
     cursor: pointer;
@@ -180,3 +185,4 @@ h1 {
     border-radius: 3px;
   }
 }
+
