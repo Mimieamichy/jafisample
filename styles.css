@@ -115,9 +115,10 @@ h1 {
   margin-top: 10px;
 }
 
-.rating-stars span {
+.rating-stars i {
   font-size: 24px;
   cursor: pointer;
+  color: red;
 }
 
 .emoji-reactions {
